@@ -7,7 +7,7 @@
 Adafruit_BME280 bme; // The sensor
 float temperature = -1., humidity = -1., pressure = -1., altitude = -1.; // The variables for the measurements.
 bool even_loop = true; // The display is too small to show all values at once, so I'll show them in an alternating way.
-bool sensor_ok; // Stores the result of the sensor connection testJa, gena
+bool sensor_ok; // Stores the result of the sensor connection test.
 LiquidCrystal lcd(7,8,9,10,11,12); // Define the LC display and the pins that I'm using
 
 void setup() {
