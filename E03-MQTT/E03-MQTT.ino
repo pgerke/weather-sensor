@@ -13,7 +13,7 @@ float temperature = -1., humidity = -1., pressure = -1., altitude = -1.; // The 
 bool sensor_ok; // Stores the result of the sensor connection test.
 const char* ssid = "<YOUR SSID HERE>";  // Enter SSID here
 const char* password = "<YOUR WIFI PASSWORD HERE>";  // Enter Password here
-const char* mqtt_broker = "<YOUR BROKER ADDRESS"; // The MQTT Broker IP address
+const char* mqtt_broker = "<YOUR BROKER ADDRESS>"; // The MQTT Broker IP address
 const char* mqtt_client_id = "MQTT Test Sensor 1"; // The MQTT client ID
 WiFiClient wifiClient; // The WiFi Client
 PubSubClient pubSubClient(wifiClient); // The MQTT client
